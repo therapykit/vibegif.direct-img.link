@@ -1,4 +1,5 @@
 // shrimp curled in a c, flicking its long antennae and snapping its tail fan, little legs pedalling
+// tags: playful, shrimp, animal, ocean, flick
 const{sin,cos,PI,max,atan2}=Math,T=2*PI
 export const frames=24,delay=75
 const B='#ff7a5c',L='#ffbcad',D='#2b2633'

@@ -1,4 +1,5 @@
 // cat-whale drifting along: one solid white shape with a dark edge, it bobs, flicks its tail, twitches an ear, puffs a spout and blinks
+// tags: calm, catwhale, animal, ocean, float, gentle, session-safe
 const{sin,cos,PI,min,max}=Math,T=2*PI
 export const frames=24,delay=85,rim=3,rimColor='#111'
 export default(c,t)=>{

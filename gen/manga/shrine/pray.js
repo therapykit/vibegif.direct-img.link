@@ -1,4 +1,5 @@
 // manga girl with black braids at a shrine: flicks a coin into the offering box, shakes the bell rope, claps twice and prays
+// tags: calm, hopeful, manga, shrine, prayer, coin, bell, session-safe
 import{createCanvas}from'@napi-rs/canvas'
 const{sin,cos,PI,min,max,abs}=Math,T=2*PI
 export const frames=24,delay=80,rim=4

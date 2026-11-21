@@ -1,4 +1,5 @@
 // green spinner arc with a dark outline whirls round, stretching and shrinking, then closes into a full ring that floods into a solid green badge with a bounce, a white checkmark draws in and pops, holds a beat, then the check shrinks away and the badge hollows back into the spinning arc
+// tags: loader, happy, success, checkmark, progress, loop
 const{sin,PI,exp,hypot}=Math,T=2*PI
 export const frames=56,delay=40
 const cl=x=>x<0?0:x>1?1:x,sm=x=>(x=cl(x),x*x*(3-2*x)),

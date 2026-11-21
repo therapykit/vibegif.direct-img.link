@@ -1,4 +1,5 @@
 // glass jar with a golden lid and night-blue inside, three little fireflies drifting about over a grass tuft and taking turns to blink their tails bright yellow-green, each glow lighting up the jar around it, bold black outlines
+// tags: loader, calm, night, firefly, nature, glow, float, gentle, session-safe
 export const frames=36,delay=50
 const{sin,cos,min,max,round,PI}=Math,T=2*PI
 const cl=x=>min(1,max(0,x))

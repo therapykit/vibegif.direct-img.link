@@ -1,4 +1,5 @@
 // beluga bobbing: pale grey-blue whale with a bulging melon head that squishes, smiling, tail and flipper paddling
+// tags: calm, happy, beluga, whale, animal, ocean, bob, gentle, session-safe
 const{sin,cos,PI}=Math,T=2*PI
 export const frames=24,delay=85
 const B='#9fb8d6',L='#d3dfed',D='#2b2633'
