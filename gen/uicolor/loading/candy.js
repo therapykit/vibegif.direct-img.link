@@ -1,4 +1,5 @@
 // a wrapped candy as a progress bar: peppermint stripes scroll in and fill it up, a shine sweeps across when it's full, then it drains and starts again
+// tags: loading, candy, progress-bar, food, peppermint, shine, loop, playful, session-safe
 const{sin,PI,min,max}=Math,T=2*PI
 export const frames=24,delay=70
 const ST='#f06595',TK='#ffdeeb',WR='#ffd43b',WD='#fab005'

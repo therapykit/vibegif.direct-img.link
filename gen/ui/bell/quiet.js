@@ -1,4 +1,5 @@
 // notification bell fast asleep, no badge, gently rocking and breathing with a snot bubble while Zzz float up
+// tags: bell, notification, sleep, tired, calm, zzz, gentle, session-safe
 const{sin,PI,max}=Math,T=2*PI
 export const frames=20,delay=90
 export default(c,t)=>{
