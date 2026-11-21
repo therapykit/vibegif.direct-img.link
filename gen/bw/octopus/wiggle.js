@@ -1,4 +1,5 @@
 // octopus bobbing with all six arms wiggling under it
+// tags: playful, animal, octopus, ocean, wiggle
 const{sin,PI}=Math,T=2*PI
 export default(c,t)=>{
   const b=4*sin(t*T)

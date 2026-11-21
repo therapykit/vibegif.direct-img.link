@@ -1,4 +1,5 @@
 // cut gem bobbing in place, light shimmering across its facets, a glint sweeping over and sparkles popping
+// tags: happy, gem, shine, glint, sparkle, bob, session-safe
 const{sin,cos,PI,max}=Math,T=2*PI
 export const frames=24,delay=70
 const SH=['#c5f6fa','#99e9f2','#66d9e8','#3bc9db','#22b8cf']

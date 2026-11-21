@@ -1,4 +1,5 @@
 // ink wash panda sitting and nibbling a bamboo stalk, jaw chewing and leaves shaking
+// tags: calm, happy, ink-wash, animal, panda, bamboo, eat, session-safe
 const{PI,sin:S,cos:C,hypot:H,min,max,abs}=Math,T=PI*2,
 // warm, semi-transparent ink at alpha a
 ink=a=>`rgba(20,18,16,${a*.8})`,

@@ -1,4 +1,5 @@
 // ink wash bottle gourds hanging from a leafy vine with curling tendrils, swinging gently out of step
+// tags: calm, ink-wash, nature, gourd, vine, swing, gentle, session-safe
 export const frames=24,delay=90,dither=true
 const{sin,cos,PI,min,max,hypot}=Math,T=PI*2
 const I=a=>`rgba(20,18,16,${a})`

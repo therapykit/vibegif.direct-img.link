@@ -1,4 +1,5 @@
 // leaf rocking down through the air like a pendulum while two small leaves tumble past behind it
+// tags: calm, nature, leaf, autumn, fall, sway, gentle, session-safe
 const{sin,cos,PI}=Math,T=2*PI
 export const frames=24,delay=70
 const leaf=(c,x,y,r,s)=>{

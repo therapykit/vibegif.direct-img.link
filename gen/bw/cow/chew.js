@@ -1,4 +1,5 @@
 // cow chewing its cud side to side, the bell under its chin swinging and one ear flicking
+// tags: calm, animal, cow, farm, chew, slow, session-safe
 const{sin,cos,PI}=Math,T=2*PI
 export const delay=80
 export default(c,t)=>{

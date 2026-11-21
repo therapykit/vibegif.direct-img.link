@@ -1,4 +1,5 @@
 // squirrel sitting up nibbling an acorn in its paws, jaw working, crumbs falling, fluffy tail flicking
+// tags: happy, animal, squirrel, acorn, nibble, autumn, session-safe
 const{sin,cos,PI}=Math,T=2*PI
 export const frames=16,delay=70
 export default(c,t)=>{

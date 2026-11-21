@@ -1,4 +1,5 @@
 // splashed ink wash horse at full gallop, mane and tail flying in dry brush, legs cycling
+// tags: excited, ink-wash, animal, horse, gallop, fast, brush
 const{PI,sin:S,cos:C,hypot:H,min,max,abs}=Math,T=PI*2,
 // warm, semi-transparent ink at alpha a
 ink=a=>`rgba(20,18,16,${a*.8})`,

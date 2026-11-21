@@ -1,4 +1,5 @@
 // ice cream cone melting: drips stretch down the cone and drops fall off, the scoop looks worried
+// tags: sad, food, ice-cream, summer, melt, drip
 const{sin,cos,PI,min}=Math,T=2*PI
 export const frames=24,delay=80
 export default(c,t)=>{

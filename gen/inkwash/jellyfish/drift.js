@@ -1,4 +1,5 @@
 // ink wash jellyfish pulsing upward, translucent layered bell with a dark rim, frilly arms and trailing hairline tentacles
+// tags: calm, ink-wash, animal, jellyfish, ocean, pulse, drift, session-safe
 export const frames=24,delay=80,dither=true
 const{sin,cos,PI,hypot,min,round,floor}=Math,T=2*PI
 const ink=(a,k='20,18,16')=>`rgba(${k},${a})`

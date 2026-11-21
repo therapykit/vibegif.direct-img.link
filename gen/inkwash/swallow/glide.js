@@ -1,4 +1,5 @@
 // ink wash pair of swallows swooping in a figure eight through hanging willow strands
+// tags: calm, ink-wash, animal, swallow, bird, willow, glide, session-safe
 const{PI,sin:S,cos:C,hypot:H,min,max,abs}=Math,T=PI*2,
 // warm, semi-transparent ink at alpha a
 ink=a=>`rgba(20,18,16,${a*.8})`,
