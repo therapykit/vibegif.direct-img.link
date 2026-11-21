@@ -23,11 +23,11 @@ class Item:
     description: str
     tags: tuple[str, ...] = ()
 
-    def path(self, base: str | Path, fmt: str = "gif") -> Path:
+    def path(self, base: str | Path, fmt: str = "webp") -> Path:
         """Local file for this item under `base` (a directory)."""
         return Path(base) / f"{self.id}.{fmt}"
 
-    def url(self, base: str, fmt: str = "gif") -> str:
+    def url(self, base: str, fmt: str = "webp") -> str:
         """URL for this item under `base`, e.g. "https://vibegif.direct-img.link"."""
         return f"{base.rstrip('/')}/{self.id}.{fmt}"
 
@@ -78,6 +78,8 @@ class Catalog:
         word; items matching no term are dropped, and ties break by id. An empty
         query returns everything that passes the filters, in id order.
         """
+        if isinstance(tags, str):
+            tags = (tags,)
         need = {t.lower() for t in tags}
         terms = _TERM.findall(query.lower())
         scored: list[tuple[int, str, Item]] = []
@@ -99,4 +101,8 @@ def _score(term: str, tags: frozenset[str], words: frozenset[str]) -> int:
         return _TAG_EXACT
     if any(t.startswith(term) for t in tags):
         return _TAG_PREFIX
-    return _DESC_WORD if term in words else 0
+    if term in words:
+        return _DESC_WORD
+    # A hyphenated term matches a description that has all its parts.
+    parts = term.split("-")
+    return _DESC_WORD if len(parts) > 1 and all(p in words for p in parts) else 0
