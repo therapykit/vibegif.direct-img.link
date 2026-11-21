@@ -1,5 +1,5 @@
 // seen from outside in the rain: a girl draws a heart in her fogged-up window with one finger and peeks through it, then the fog creeps back
-// tags: calm, love, playful, manga, window, rain, heart, doodle, session-safe
+// tags: calm, love, playful, rain, heart, doodle
 import{createCanvas}from'@napi-rs/canvas'
 const{sin,cos,PI,min,max}=Math,T=2*PI
 export const frames=20,delay=90,rim=4

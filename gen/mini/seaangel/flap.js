@@ -1,5 +1,5 @@
 // sea angel swimming: a little clione flaps its wing-feet and bobs on every beat, a tiny heart glowing in its belly
-// tags: calm, love, sea-angel, animal, ocean, heart, float, gentle, session-safe
+// tags: calm, love, sea-angel, animal, ocean, heart, float, gentle
 const{sin,PI}=Math,T=2*PI
 export const frames=24,delay=80,rim=3,rimColor='#111'
 export default(c,t)=>{
