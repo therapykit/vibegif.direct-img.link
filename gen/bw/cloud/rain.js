@@ -1,5 +1,5 @@
 // sleepy rain cloud drifting while drops fall out from under it
-// tags: sad, calm, weather, cloud, rain, sleepy, float
+// tags: sad, calm, weather, sleepy, float
 const{sin,PI}=Math,T=2*PI
 export default(c,t)=>{
   for(const[x,o]of[[72,0],[100,.55],[128,.25],[156,.8],[184,.4]]){

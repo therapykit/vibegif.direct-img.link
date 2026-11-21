@@ -1,5 +1,5 @@
 // ink wash swordsman in a straw hat crouched low, drawing his blade in one motion, the cut leaving a single sweeping brush stroke in the air that fades
-// tags: ink-wash, swordsman, sword, draw, focus, person
+// tags: swordsman, focus, person
 import{createCanvas}from'@napi-rs/canvas'
 const K='20,18,16',{PI:P,sin,cos,min,max,abs,hypot}=Math,T=P*2
 const cl=(x,a=0,b=1)=>min(b,max(a,x)),ss=(a,b,x)=>(x=cl((x-a)/(b-a)),x*x*(3-2*x)),mx=(a,b,f)=>a+(b-a)*f

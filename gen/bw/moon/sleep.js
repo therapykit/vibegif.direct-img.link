@@ -1,5 +1,5 @@
 // crescent moon sleeping and rocking gently while z's drift up and two stars twinkle
-// tags: calm, tired, moon, night-sky, stars, sleep, zzz, rock, gentle, session-safe
+// tags: calm, tired, night-sky, stars, zzz, rock, gentle
 const{sin,cos,PI}=Math,T=2*PI
 export const frames=20,delay=90
 export default(c,t)=>{

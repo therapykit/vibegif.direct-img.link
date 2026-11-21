@@ -1,5 +1,5 @@
 // ink wash manta ray gliding seen from above with slow wingbeats, wing tips curling, pale shoulder markings and a long thin tail
-// tags: calm, ink-wash, animal, manta-ray, ocean, glide, slow, session-safe
+// tags: calm, animal, manta-ray, ocean, slow
 const{sin,cos,PI,hypot,min,max,abs,floor,round}=Math,T=2*PI,
 I=a=>`rgba(20,18,16,${a})`,
 R=n=>(n=sin(n*91.7+7.3)*43758.5453)-floor(n),

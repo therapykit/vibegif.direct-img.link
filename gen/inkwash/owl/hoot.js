@@ -1,5 +1,5 @@
 // ink wash owl on a pine bough, blinking, puffing its throat and hooting small ink breath rings
-// tags: calm, ink-wash, animal, owl, bird, night, hoot, session-safe
+// tags: calm, animal, bird, night
 const{PI,sin:S,cos:C,hypot:H,min,max,abs}=Math,T=PI*2,
 // warm, semi-transparent ink at alpha a
 ink=a=>`rgba(20,18,16,${a*.8})`,

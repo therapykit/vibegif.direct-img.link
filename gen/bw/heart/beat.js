@@ -1,5 +1,5 @@
 // heart thumping with a double beat, pop lines burst out on the big one
-// tags: love, heart, pulse, beat, session-safe
+// tags: love, pulse
 const{exp,cos,sin,PI}=Math
 const p=(t,m)=>exp(-((((t-m+1.5)%1-.5)/.06)**2))
 export const delay=60

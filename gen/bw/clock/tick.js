@@ -1,5 +1,5 @@
 // alarm clock rocking tick-tock while the second hand steps once a frame around the dial
-// tags: clock, time, tick, wake, loop
+// tags: time, wake
 const{sin,cos,PI}=Math,T=2*PI
 export const frames=12,delay=160
 export default(c,t,i)=>{
