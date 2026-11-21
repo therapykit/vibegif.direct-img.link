@@ -1,5 +1,5 @@
 // round paper lantern with dark caps hangs from a string and sways, its orange body, curved ribs and glowing gold core pulse warmer and cooler while an amber tassel swings underneath a beat behind
-// tags: loader, calm, lantern, glow, sway, gentle, session-safe
+// tags: calm, glow, sway, gentle
 const{sin,cos,PI,round}=Math,T=2*PI
 const N=28,b=.5,
   // more frames through the fast middle of each swing, fewer at the slow ends

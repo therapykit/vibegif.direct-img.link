@@ -1,5 +1,5 @@
 // white disc in a thick black rim holding two sets of bold black concentric rings, one set glides left and right over the other so wide moire bands swell and sweep across it
-// tags: loader, moire, pattern, optical-illusion, loop
+// tags: pattern, optical-illusion
 const{cos,PI,min}=Math,T=2*PI
 export const frames=40,delay=50
 const R=98,G=20

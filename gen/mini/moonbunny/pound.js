@@ -1,5 +1,5 @@
 // moon rabbit pounding mochi under a crescent moon: it heaves the mallet up, brings it down, the mochi squishes and its ears flop
-// tags: calm, playful, moon-rabbit, animal, mochi, moon, night, session-safe
+// tags: calm, playful, moon-rabbit, animal, mochi, moon, night
 const{sin,cos,PI}=Math,T=2*PI
 export const frames=24,delay=80,rim=3,rimColor='#111'
 export default(c,t)=>{

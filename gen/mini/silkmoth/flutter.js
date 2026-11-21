@@ -1,5 +1,5 @@
 // silk moth fluttering: a fluffy white moth beats its little wings, sways its feathery antennae and blinks its big eyes
-// tags: calm, silk-moth, animal, insect, flutter, gentle, session-safe
+// tags: calm, silk-moth, animal, insect, gentle
 const{sin,cos,PI}=Math,T=2*PI
 export const frames=24,delay=80,rim=3,rimColor='#111'
 export default(c,t)=>{

@@ -1,5 +1,5 @@
 // shoujo heroine with huge starry eyes, long wavy white hair drifting while bubbles rise and flowers turn around her
-// tags: happy, love, manga, shoujo, sparkle, flowers, bubbles, session-safe
+// tags: happy, love, flowers, bubbles
 import{createCanvas}from'@napi-rs/canvas'
 const{sin,cos,PI,max}=Math,T=2*PI
 export const frames=12,delay=100,rim=4
