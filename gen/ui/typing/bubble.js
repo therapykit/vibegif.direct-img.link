@@ -1,5 +1,5 @@
 // chat speech bubble gently bobbing while three typing dots pulse up and darken one after another
-// tags: typing, chat, speech-bubble, dots, pulse, bob, gentle, calm, session-safe
+// tags: chat, speech-bubble, dots, pulse, bob, gentle, calm
 const{sin,PI,max}=Math,T=2*PI
 export const frames=18,delay=70
 export default(c,t)=>{

@@ -1,5 +1,5 @@
 // blue front door swings open toward you, warm golden light pours out with sparkles over a heart welcome mat, then it eases shut
-// tags: welcome, door, heart, home, light, sparkle, happy, hopeful, calm, session-safe
+// tags: heart, home, light, sparkle, happy, hopeful, calm
 const{sin,cos,PI,min,max}=Math,T=2*PI
 export const frames=20,delay=80
 const FR='#a9744f',FRD='#8d6346',DR='#4dabf7',DRD='#339af0',IN='#ffd43b',GLOW='#fff3bf',MAT='#ff6b6b',MATL='#ffa8a8',KN='#ffd43b'

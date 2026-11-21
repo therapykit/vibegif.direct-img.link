@@ -1,5 +1,5 @@
 // round error badge with a big X shaking its head side to side like "nope nope", then pausing
-// tags: error, cross, no, shake, badge
+// tags: no, shake, badge
 const{sin,PI,abs,min}=Math,T=2*PI
 export const frames=20,delay=60
 export default(c,t)=>{

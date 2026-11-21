@@ -1,5 +1,5 @@
 // robot fish swimming side-on: riveted steel armor segments and a forked orange tail swish in a wave, cyan glowing eye, blinking antenna, pectoral fin paddling, bubbles rising from its mouth
-// tags: robofish, robot, fish, animal, sea, swim, bubble, calm, session-safe
+// tags: fish, animal, sea, bubble, calm
 export const frames=24,delay=50
 const P=Math.PI*2
 const plate=(c,L,h0,h1,g)=>{
