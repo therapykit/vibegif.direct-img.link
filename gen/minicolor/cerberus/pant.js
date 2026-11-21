@@ -1,4 +1,5 @@
 // three-headed puppy sitting, the heads pant one after another with tongues out, tail wagging
+// tags: happy, playful, cerberus, puppy, dog, animal, fantasy, pant, session-safe
 const{sin,PI}=Math,T=2*PI
 export const frames=24,delay=80
 const B='#8a94a6',L='#c5cad3',A='#ff85a8',D='#2b2633'

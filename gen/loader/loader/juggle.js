@@ -1,4 +1,5 @@
 // three balls in red, gold and blue juggled in a cascade by two grey cupped hands, each ball thrown from the inside and caught on the outside so the arcs cross in the middle, with real juggling timing
+// tags: loader, playful, juggle, ball, hands, loop
 const{sin,PI}=Math,T=2*PI
 export const frames=40,delay=40
 // time in beats: a throw every beat, hands alternate, loop = 6 beats (every ball back in its first hand)

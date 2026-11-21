@@ -1,4 +1,5 @@
 // pangolin trundling, then curling up into a scaly ball that rocks, then unrolling again
+// tags: shy, pangolin, animal, roll, curl, session-safe
 const{sin,cos,PI,max,min,atan2}=Math,T=2*PI
 export const frames=32,delay=70
 const B='#c9a27e',A='#97734f',D='#2b2633'
